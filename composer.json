@@ -15,6 +15,7 @@
         "laravel/cashier": "^9.3",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
+        "overtrue/laravel-lang": "~3.0",
         "ranabd36/laravelcollective": "^5.8"
     },
     "require-dev": {
