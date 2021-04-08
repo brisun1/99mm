@@ -34,7 +34,7 @@
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
-                                    {{ __('发送修改链接') }}
+                                    {{ __('请求修改') }}
                                 </button>
                             </div>
                         </div>

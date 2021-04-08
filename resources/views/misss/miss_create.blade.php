@@ -61,7 +61,7 @@
     </div>
     <div class="form-group form-inline {{ $errors->has('height') ? 'has-error' : ''}}">
       {{Form::label('height', '身高 :  ')}}
-      {{Form::number('height', '', ['class' => 'form-control','min' => '1','step' => '0.05', 'placeholder' => '身高,米'])}}
+      {{Form::number('height', '', ['class' => 'form-control','min' => '1','step' => '0.01', 'placeholder' => '身高,米'])}}
     </div>
     <div class="form-group form-inline {{ $errors->has('chest') ? 'has-error' : ''}}">
       {{Form::label('chest', '胸围 :')}}

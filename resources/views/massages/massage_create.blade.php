@@ -51,7 +51,7 @@
       {{Form::text('national', '', ['class' => 'form-control', 'placeholder' => '来自国家'])}}
     </div>
     <div class="form-group form-inline {{ $errors->has('shape') ? 'has-error' : ''}}">
-      {{Form::label('shape', '身材型 :')}}
+      {{Form::label('shape', '身材 :')}}
       {{Form::text('shape', '', ['class' => 'form-control', 'placeholder' => '如：苗条，丰满，匀称'])}}
     </div>
 

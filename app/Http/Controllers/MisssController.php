@@ -105,16 +105,16 @@ class MisssController extends Controller
             'service_des'=>'string|max:100|nullable',
             'special_serv'=>'string|max:100|nullable',
             'western_serv'=>'in:1|nullable',
-            'img0'=>'image|mimes:jpeg,bmp,png|size:7000|nullable',
-            'img1'=>'image|mimes:jpeg,bmp,png|size:7000|nullable',
-            'img2'=>'image|mimes:jpeg,bmp,png|size:7000|nullable',
-            'img3'=>'image|mimes:jpeg,bmp,png|size:7000|nullable',
-            'img4'=>'image|mimes:jpeg,bmp,png|size:7000|nullable',
-            'img5'=>'image|mimes:jpeg,bmp,png|size:7000|nullable',
-            'img6'=>'image|mimes:jpeg,bmp,png|size:7000|nullable',
-            'img7'=>'image|mimes:jpeg,bmp,png|size:7000|nullable',
-            'img8'=>'image|mimes:jpeg,bmp,png|size:7000|nullable',
-            'img9'=>'image|mimes:jpeg,bmp,png|size:7000|nullable'
+            'img0'=>'image|mimes:jpeg,bmp,png，jpg|size:7000|nullable',
+            'img1'=>'image|mimes:jpeg,bmp,png，jpg|size:7000|nullable',
+            'img2'=>'image|mimes:jpeg,bmp,png，jpg|size:7000|nullable',
+            'img3'=>'image|mimes:jpeg,bmp,png，jpg|size:7000|nullable',
+            'img4'=>'image|mimes:jpeg,bmp,png，jpg|size:7000|nullable',
+            'img5'=>'image|mimes:jpeg,bmp,png，jpg|size:7000|nullable',
+            'img6'=>'image|mimes:jpeg,bmp,png，jpg|size:7000|nullable',
+            'img7'=>'image|mimes:jpeg,bmp,png，jpg|size:7000|nullable',
+            'img8'=>'image|mimes:jpeg,bmp,png，jpg|size:7000|nullable',
+            'img9'=>'image|mimes:jpeg,bmp,png，jpg|size:7000|nullable'
             
         ]);
 

@@ -28,7 +28,7 @@
                                             <img src="/storage/img_name/no-user.jpg" style="height:130px; width:200px">
                                         </a>
                                     @endif
-                                        <h3>{{$post->uname}}</h3>
+                                        <h6>{{$post->uname}}</h6>
                                         
                                         <small> {{$post->addr1}} </small>
                                         
